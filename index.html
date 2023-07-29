@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <title>Document</title>
+</head>
+<body>
+    <h2>Welcome Back!<span><img src="img.png" alt=""></span></h2>
+    <h1>Sign up to your account</h1>
+    <div id="signup-form">
+      <label for="username">Your name</label><br>
+      <input type="text" id="username" required><br>
+      <label for="email">Your email</label><br>
+      <input type="email" id="email" required><br>
+      <label for="password">Password</label><br>
+      <input type="password" id="password" required><br>
+      <label for="password-confirm">confirm Password</label><br>
+      <input type="password" id="password" required><br><br>
+      <button onclick="handleSignup()">CONTINUE</button><br>
+      <p id="signup-message"></p>
+    </div>
+    <h3>Don't have an account? <span class="sign">sign up</span></h3>
+    <script src="script.js" defer></script>
+</body>
+</html>
